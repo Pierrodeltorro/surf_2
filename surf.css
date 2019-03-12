@@ -1,0 +1,395 @@
+
+
+
+.title1{
+    font-family: cursive;
+    font-size: 100%;
+    text-decoration: underline;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    max-width: 15%%;
+    float: left;
+    color: whitesmoke;
+}
+
+.inputstyle{
+    border-color: black;
+    background-color: lightgrey;
+    max-width: 50px;
+}
+
+
+.back{
+    background-image: url(picture/surf.jpg);
+    background-size: cover;
+}
+
+.backimage2{
+    background-image: url(picture/surf_extreme.jpg);
+    background-size: cover;
+   
+}
+
+
+/* I tried to make the cursor area more opaque*/
+.cursorw{
+   cursor: 10px;
+}
+
+.cursorw:hover {
+    opacity: 0.3;  
+}
+
+.backvideo{
+    background-clip: url();
+}
+.menu1
+{
+   
+    text-align: center;
+    padding: 30px;
+    border-radius: 50%;
+    max-width: 600px;
+    min-width: 200px;
+   text-decoration: none; 
+    
+     font-family:"Times New Roman", Times, serif;
+     
+}
+
+.menu2 a{
+     font-family:"Times New Roman", Times, serif;
+    font-size: 15px;
+    animation: anima3 3s;
+}
+
+.menu2
+{   max-width: 60%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 35%;
+   background: linear-gradient(-45deg, sandybrown, whitesmoke , #23A6D5, darkblue);
+	background-size: 300% 300%;
+	-webkit-animation: Gradient 1.5s ease ;
+}
+}
+
+.footer1{
+    padding: 15px;
+    background-color: aliceblue;
+    margin-top: 90%;
+    text-align: left;
+    height: 100px;
+    width: 100px;
+}
+
+.footer1 a{
+    font-family:"Times New Roman", Times, serif;
+    font-size: 15px;
+    animation: anima3 3s;
+    text-decoration: none; 
+    padding: 14px 16px;
+     
+}
+.footer {
+    background-color: aliceblue;
+    padding: 15px;
+    text-align: left;
+    margin-top: 25%;
+    
+}
+            
+.footer a {
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 15px;
+  
+}
+.footer a:hover {
+    background-color: sandybrown;
+}
+
+
+
+
+
+@keyframes anima {
+    0% {background-color: blue; background-position:0% 50%;} 
+    45% {background-color: skyblue; background-position:100% 50%;}
+    65% {background-color: whitesmoke; background-position:50% 50%;;}
+    100% {background-color: sandybrown; background-position:0% 50%;}
+}
+
+
+
+@keyframes Gradient {
+	0% {
+		background-position: 10% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 10% 50%
+	}
+}
+
+
+
+/*tried to make the text all dissepear and then reappear 3 sec later */
+@keyframes anima3{
+    25%{visibility: hidden;}
+    50%{visibility: hidden;}
+    100%{visibility: visible;}
+}
+
+.menu1 a{
+    color: seashell;
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px
+}
+
+.menu1 a:hover{
+    font-size: 30px;
+    background-color: saddlebrown;
+    border-radius: 15px;
+    padding: 3px
+}
+
+.container
+{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 30% 30%;
+    grid-row-gap: 15%;
+    animation: anima2 3s;
+}
+
+.container2{
+    background-color: aliceblue;
+    border-radius: 15%;
+    margin: 5%;
+    background-size: cover;
+    height: 300%;
+    max-width: 80%;
+}
+.container3
+{
+    padding; 5px;  
+    margin: 4%;
+   display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 30% 30%;
+    grid-row-gap: 15%; 
+    height: 60px;
+    background: none;
+    color: none;
+}
+
+.container4
+{
+   display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 30% 30%;
+    grid-row-gap: 15%; 
+   float: center;
+}
+
+
+
+.image1{
+    position:relative;
+    align-content: center;
+    float: left;
+    top: 5%;
+    margin-left: 5px;
+    position: relative;
+    border-radius: 50%;
+    border-color: antiquewhite;
+    margin: 10px;
+    width: 120px;
+    height: 90px;
+    padding: 5%;
+    background:url(picture/surf_santender.jpg);
+    background-size:cover; 
+    }
+
+.image2{
+    position:relative;
+    align-content: center;
+    float: left;
+    top: 5%;
+    margin-left: 5px;
+    position: relative;
+    border-radius: 50%;
+    border-color: antiquewhite;
+    margin: 10px;
+    width: 120px;
+    height: 90px;
+    padding: 5%;
+    background: url(picture/surfantigua.JPG);
+        background-size:cover;
+    }
+
+.image3{
+    position:relative;
+    align-content: center;
+    float: left;
+    top: 5%;
+    margin-left: 5px;
+    position: relative;
+    border-radius: 50%;
+    border-color: antiquewhite;
+    margin: 10px;
+    width: 120px;
+    height: 90px;
+    padding: 5%;
+    background: url(picture/surfcf2.jpg);
+    background-size:cover;
+    }
+
+.image4{
+    position:relative;
+    align-content: center;
+    float: left;
+    top: 5%;
+    margin-left: 5px;
+    position: relative;
+    border-radius: 50%;
+    border-color: antiquewhite;
+    margin: 10px;
+    width: 120px;
+    height: 90px;
+    padding: 5%;
+    background: url(picture/surf.jpg);
+    background-size:cover;
+    }
+
+@keyframes anima2{
+    from{filter: opacity(0%)}
+    to{filter: opacity(90%)}
+}
+        
+.basictext{
+   
+    margin-left: 20%;
+    background-color: whitesmoke; 
+    width: 100%; 
+    visibility: visible; 
+    font-size: 60%; 
+    margin-left: 50%;
+    border-color: black;
+   
+}
+.text49{
+	width:120px;
+	height:90px;
+	background:#FFF;
+	opacity:0;
+    border-radius: 50%;
+    visibility: hidden;
+
+}
+
+.text46{
+	width:120px;
+	height:90px;
+	background:#FFF;
+	opacity:0;
+    border-radius: 50%;
+    margin-bottom: 100%;
+
+}
+
+.text47{
+	width:120px;
+	height:90px;
+	background:#FFF;
+	opacity:0;
+    border-radius: 50%;
+
+}
+
+.text48{
+	width:120px;
+	height:90px;
+	background:#FFF;
+	opacity:0;
+    border-radius: 50%;
+
+}
+
+.text50 {
+    margin-left: 1%;
+    float: left;
+    font-family:"Times New Roman", Times, serif;
+    padding: 4%;
+    font-size: 120%;
+}
+
+.image1:hover .text49{
+    visibility: visible;
+	opacity:0.6;
+	text-align:center;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+    padding: 10px;
+    -moz-box-shadow: 0 0 15px #4bb;
+		-webkit-box-shadow: 0 0 15px #4bb;
+		box-shadow: 0 0 15px #4bb;   
+}
+
+.image2:hover .text46{
+      opacity:0.6;
+	text-align:center;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+    padding: 10px;
+    -moz-box-shadow: 0 0 15px #4bb;
+		-webkit-box-shadow: 0 0 15px #4bb;
+		box-shadow: 0 0 15px #4bb;    
+}
+
+.image3:hover .text47 {
+    opacity:0.6;
+	text-align:center;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+    padding: 10px;
+    -moz-box-shadow: 0 0 15px #4bb;
+		-webkit-box-shadow: 0 0 15px #4bb;
+		box-shadow: 0 0 15px #4bb;   
+}
+.image4:hover .text48{
+    opacity:0.6;
+	text-align:center;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+    padding: 10px;
+    -moz-box-shadow: 0 0 15px #4bb;
+		-webkit-box-shadow: 0 0 15px #4bb;
+		box-shadow: 0 0 15px #4bb;   
+}
+
+
+
+
+
+
+
+
