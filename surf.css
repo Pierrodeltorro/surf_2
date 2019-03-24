@@ -8,7 +8,6 @@
     margin-left: 5%;
     margin-bottom: 1%;
     max-width: 15%%;
-    float: left;
     color: whitesmoke;
 }
 
@@ -30,6 +29,13 @@
    
 }
 
+.btn-primary{
+    background-color: #23A6D5;
+    border-color: #23A6D5;
+    color: whitesmoke;
+    border-radius: 10%;
+}
+
 
 /* I tried to make the cursor area more opaque*/
 .cursorw{
@@ -40,9 +46,6 @@
     opacity: 0.3;  
 }
 
-.backvideo{
-    background-clip: url();
-}
 .menu1
 {
    
@@ -71,7 +74,7 @@
     border-radius: 35%;
    background: linear-gradient(-45deg, sandybrown, whitesmoke , #23A6D5, darkblue);
 	background-size: 300% 300%;
-	-webkit-animation: Gradient 1.5s ease ;
+	-webkit-animation: Gradient 2s ease ;
 }
 }
 
@@ -131,7 +134,7 @@
 		background-position: 10% 50%
 	}
 	50% {
-		background-position: 100% 50%
+		background-position: 100% 55%
 	}
 	100% {
 		background-position: 10% 50%
@@ -167,9 +170,10 @@
 {
     display:grid;
     grid-template-columns: 50% 50%;
-    grid-auto-rows: 30% 30%;
-    grid-row-gap: 15%;
+    grid-auto-rows: 32% 32%;
+    grid-row-gap: 18%;
     animation: anima2 3s;
+    margin: 10px;
 }
 
 .container2{
@@ -200,6 +204,7 @@
     grid-auto-rows: 30% 30%;
     grid-row-gap: 15%; 
    float: center;
+    margin: 5%;
 }
 
 
@@ -213,11 +218,9 @@
     position: relative;
     border-radius: 50%;
     border-color: antiquewhite;
-    margin: 10px;
-    width: 120px;
-    height: 90px;
-    padding: 5%;
-    background:url(picture/surf_santender.jpg);
+    width: 150px;
+    height: 110px;
+    padding: 0%; background:url(picture/surf_santender.jpg);
     background-size:cover; 
     }
 
@@ -230,10 +233,9 @@
     position: relative;
     border-radius: 50%;
     border-color: antiquewhite;
-    margin: 10px;
-    width: 120px;
-    height: 90px;
-    padding: 5%;
+    width: 150px;
+    height: 110px;
+    padding: 0%;
     background: url(picture/surfantigua.JPG);
         background-size:cover;
     }
@@ -247,10 +249,9 @@
     position: relative;
     border-radius: 50%;
     border-color: antiquewhite;
-    margin: 10px;
-    width: 120px;
-    height: 90px;
-    padding: 5%;
+     width: 150px;
+    height: 110px;
+    padding: 0%;
     background: url(picture/surfcf2.jpg);
     background-size:cover;
     }
@@ -264,13 +265,28 @@
     position: relative;
     border-radius: 50%;
     border-color: antiquewhite;
-    margin: 10px;
-    width: 120px;
-    height: 90px;
-    padding: 5%;
-    background: url(picture/surf.jpg);
+    width: 150px;
+    height: 110px;
+    padding: 0%;
+    background: url(picture/Brasil.JPG);
     background-size:cover;
     }
+
+.image5{
+     position:relative;
+    align-content: center;
+    float: left;
+    top: 5%;
+    margin-left: 5px;
+    position: relative;
+    border-radius: 50%;
+    border-color: antiquewhite;
+    width: 150px;
+    height: 110px;
+    padding: 0%;
+    background: url(picture/surf_berlin.jpg);
+    background-size:cover;
+}
 
 @keyframes anima2{
     from{filter: opacity(0%)}
@@ -278,52 +294,45 @@
 }
         
 .basictext{
-   
-    margin-left: 20%;
     background-color: whitesmoke; 
     width: 100%; 
     visibility: visible; 
-    font-size: 60%; 
     margin-left: 50%;
     border-color: black;
-   
+    font-size: 70%;   
 }
 .text49{
-	width:120px;
-	height:90px;
+	width: 150px;
+    height: 110px;
 	background:#FFF;
 	opacity:0;
     border-radius: 50%;
     visibility: hidden;
-
 }
 
 .text46{
-	width:120px;
-	height:90px;
+	width: 150px;
+    height: 110px;
 	background:#FFF;
 	opacity:0;
     border-radius: 50%;
     margin-bottom: 100%;
-
 }
 
 .text47{
-	width:120px;
-	height:90px;
+	width: 150px;
+    height: 110px;
 	background:#FFF;
 	opacity:0;
     border-radius: 50%;
-
 }
 
 .text48{
-	width:120px;
-	height:90px;
+	width: 150px;
+    height: 110px;
 	background:#FFF;
 	opacity:0;
     border-radius: 50%;
-
 }
 
 .text50 {
@@ -334,56 +343,62 @@
     font-size: 120%;
 }
 
+.text51{
+	width: 150px;
+    height: 110px;
+	background:#FFF;
+	opacity:0;
+    border-radius: 50%;
+}
+
 .image1:hover .text49{
     visibility: visible;
 	opacity:0.6;
 	text-align:center;
 	color:#000000;
-	font-size:20px;
+	font-size:80%;
 	font-weight:700;
-	font-family:"Times New Roman", Times, serif;
-    padding: 10px;
-    -moz-box-shadow: 0 0 15px #4bb;
-		-webkit-box-shadow: 0 0 15px #4bb;
-		box-shadow: 0 0 15px #4bb;   
+	font-family:"Times New Roman", Times, serif;  
 }
 
 .image2:hover .text46{
-      opacity:0.6;
+       visibility: visible;
+	opacity:0.6;
 	text-align:center;
 	color:#000000;
-	font-size:20px;
+	font-size:80%;
 	font-weight:700;
-	font-family:"Times New Roman", Times, serif;
-    padding: 10px;
-    -moz-box-shadow: 0 0 15px #4bb;
-		-webkit-box-shadow: 0 0 15px #4bb;
-		box-shadow: 0 0 15px #4bb;    
+	font-family:"Times New Roman", Times, serif; 
 }
 
 .image3:hover .text47 {
-    opacity:0.6;
+     visibility: visible;
+	opacity:0.6;
 	text-align:center;
 	color:#000000;
-	font-size:20px;
+	font-size:80%;
 	font-weight:700;
 	font-family:"Times New Roman", Times, serif;
-    padding: 10px;
-    -moz-box-shadow: 0 0 15px #4bb;
-		-webkit-box-shadow: 0 0 15px #4bb;
-		box-shadow: 0 0 15px #4bb;   
 }
+
 .image4:hover .text48{
-    opacity:0.6;
+     visibility: visible;
+	opacity:0.6;
 	text-align:center;
 	color:#000000;
-	font-size:20px;
+	font-size:80%;
 	font-weight:700;
 	font-family:"Times New Roman", Times, serif;
-    padding: 10px;
-    -moz-box-shadow: 0 0 15px #4bb;
-		-webkit-box-shadow: 0 0 15px #4bb;
-		box-shadow: 0 0 15px #4bb;   
+}
+
+.image5:hover .text51{
+     visibility: visible;
+	opacity:0.6;
+	text-align:center;
+	color:#000000;
+	font-size:80%;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
 }
 
 

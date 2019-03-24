@@ -1,6 +1,6 @@
 
 <head >
-    <link href="bootstrap.css" rel="stylesheet"
+   <!-- <link href="bootstrap.css" rel="stylesheet"-->
     >
      <link rel= "stylesheet" href= "surf.css" type = "text/css">
 
@@ -22,20 +22,25 @@
     </div>
 
   
-    <br>
+
   
 <div class = "container3">
-<div class = "title1"> <p>Desired wave height </p></div>
+
+    <div class = "title1" style = "padding-top: 0px;"> 
+        <p style = "margin: 0px;">Desired wave height </p>
+    </div>
     
    <div class="styled-select slate" style= "padding: 1px; ">
-  <select style="background-color: lightgray; min-width: 80%; border-color: black; margin: 0.2%;" >
+  <select style="background-color: lightgray; min-width: 80%; border-color: black; " >
     <option id= wave1>Less than 1m</option>
     <option id=wave2 >Between 1 and 2 meters</option>
     <option id=wave3>More than 2 meters</option>
   </select>
 </div>
 
-     <div class = "title1"> <p> Desired sea floor </p></div>
+     <div class = "title1">
+         <p style = "margin: 0px;"> Desired sea floor </p>
+    </div>
        
 
    
@@ -48,9 +53,12 @@
   </select>
 </div>
     
-     <div class = "title1" style="margin-bottom: 0%;"> <p>Avoid sharky spots  </p></div>  
+     <div class = "title1" > 
+         <p style = "margin: 0px;">Avoid sharky spots  </p>
+    </div>  
     
-    <input type="checkbox" id= "checkbox1" style="float: left; margin: 5%; padding: 4px;">
+    <input type="checkbox" id= "checkbox1" style="float: margin: 0px; width: 20px; height: 20px;">
+    
     </div>
     
     
@@ -59,25 +67,30 @@
  
 <div class= "container4">
   
-    <button class = "btn-primary" onclick="myFunction()   " style= "height: 60%; max-width: 80%; margin-left: 5%;">Try it</button>
+    <button class = "btn-primary" onclick="myFunction()   " style= "height: 70%; max-width: 80%; margin-left: 5%;">Try it</button>
     
-<button class = "btn-primary"  onclick="clearf()" style = " height: 60%; max-width: 80%; margin-left: 5%;">Clear</button> 
+<button class = "btn-primary"  onclick="clearf()" style = " height: 80%; max-width: 80%; margin-left: 5%;">Clear</button> 
  
    
      
         <div class = "basictext" >
-  <p id="text"  ></p>
+  <p id="text"></p>
   </div>
     
     <br>
     
-     <div class= "container3">
- <div class = "title1" style="margin-bottom: 0%; color: black;"> <p>Leave a comment ! </p></div>  
     
-         </div>
+ <div class = "title1" style="margin-bottom: 0%; color: black;"> 
+     <p>Leave a comment ! </p>
+    </div>  
     
-    <input type="text" id="myText2" style= "border-color: black; margin: 0.8%; background-color: lightgrey; min-height: 120%;" >
+        
+    
+    <input type="text" id="myText2" style= "border-color: black; margin: 0.8%; background-color: lightgrey; min-height: 120%; " >
+   
       </div>
+    
+     <button id= submit1 class = "btn-primary" style= "margin-left: 80%; margin-top: 1%; width: 12%;"> Submit </button>
     
 </body>
 
